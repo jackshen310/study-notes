@@ -1,26 +1,23 @@
-#cygwin githup
-#enter E disk
-cd /cygdrive/e
 
-#[config]
+# [config]
+```
 #config username and email.
 git config --global user.name "your_name"
 git config --global user.email "your_email"
 #use command 'git log' and you will see the name and email.
 
-
-
 #Password caching(default 15 minutes)
 git config --global credential.helper cache
 #modify
 git config --global credential.helper 'cache --timeout=3600'
-
-
+```
+# 常用命令
+```
 #Git创建Develop分支的命令：
 git checkout -b develop master
-# 切换到Master分支
+#切换到Master分支
 git checkout master
-# 对Develop分支进行合并
+#对Develop分支进行合并
 git merge --no-ff develop
 
 #功能分支
@@ -39,9 +36,9 @@ git remote rm origin
 #then
 git push -u origin master
 
-
 #alias
 alias gr=' cd /cygdrive/f/GITRepository'
+```
 
-#vi commands
+# vi commands
 http://www.cnblogs.com/88999660/articles/1581524.html
